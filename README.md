@@ -7,16 +7,14 @@ The script automatically updates rkhunter to latest version and performs a check
 
 Run as Root!
 
-To use script, first run: 
-
-#Run the command below to check for any unrecognised configuration options. If any configuration problems are found, then they will be displayed and the return code will be set to 1.
+Run the command below to check for any unrecognised configuration options. If any configuration problems are found, then they will be displayed and the return code will be set to 1.
 
 rkhunter -C
 
-#once you followed guide above do this
+Once you followed guide above do this:
 
 chmod +x rkhunter-check.sh
 
-#then run it
+Then run it:
 
 ./rkhunter-check.sh
