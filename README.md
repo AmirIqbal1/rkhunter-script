@@ -1,5 +1,5 @@
 # rkhunter-script
-This bash script checks for rootkits installed on Ubuntu 18.04 OS.
+This bash script checks for rootkits installed on Ubuntu 18.04 & 20.04.
 
 Follow guide https://kifarunix.com/how-to-install-rkhunter-rootkit-hunter-on-ubuntu-18-04/ to install rkhunter and remember to whitelist "/etc/.java" on conf file (/etc/rkhunter.conf).
 
