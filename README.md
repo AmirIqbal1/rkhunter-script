@@ -1,22 +1,27 @@
 # rkhunter-script
-This bash script checks for rootkits installed on Ubuntu 18.04 & 20.04.
 
-Follow guide https://kifarunix.com/how-to-install-rkhunter-rootkit-hunter-on-ubuntu-18-04/ to install rkhunter and remember to whitelist "/etc/.java" on conf file (/etc/rkhunter.conf).
+Simple helper script to install, update and run Rootkit Hunter on:
 
-The script automatically updates rkhunter to latest version and performs a check without any keypress needed, just make sure you follow link above to initialize first install.
+- Ubuntu 24.04 LTS / Linux Mint 22.x
+- Other Ubuntu-based systems may also work
 
-uncomment "ALLOWHIDDENDIR=/etc/.java" in /etc/rkhunter.conf and add ALLOWHIDDENFILE=/usr/bin/lwp-request, which adds "Simple user agent using LWP library."
+## What it does
 
-# Run as root!
+The script:
 
-Run the command below to check for any unrecognised configuration options. If any configuration problems are found, then they will be displayed and the return code will be set to 1.
+1. Updates APT package lists
+2. Installs `rkhunter` if missing
+3. Checks the rkhunter config
+4. Updates rkhunter data files
+5. Updates the file property database
+6. Runs a non-interactive scan showing warnings only
 
-rkhunter -C
+Full scan logs are saved to:
 
-Once you followed guide above do this:
+```bash
+/var/log/rkhunter.log
 
+```bash
+git clone https://github.com/AmirIqbal1/rkhunter-script.git
+cd rkhunter-script
 chmod +x rkhunter-check.sh
-
-Then run it:
-
-./rkhunter-check.sh
