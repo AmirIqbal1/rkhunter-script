@@ -1,8 +1,8 @@
 # rkhunter-script
 
-Simple helper script to install, update and run Rootkit Hunter on:
+Simple helper script to install, update and run Rootkit Hunter on: Ubuntu 24.04 LTS / Linux Mint 22.x
 
-- Ubuntu 24.04 LTS / Linux Mint 22.x
+[Tutorial](https://linux.how2shout.com/install-and-use-rootkit-hunter-on-ubuntu-such-as-24-04-or-22-04/)
   
 ## What it does
 
