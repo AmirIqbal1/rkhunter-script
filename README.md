@@ -20,7 +20,12 @@ Full scan logs are saved to:
 ```bash
 /var/log/rkhunter.log
 
+```
+
 ```bash
 git clone https://github.com/AmirIqbal1/rkhunter-script.git
 cd rkhunter-script
 chmod +x rkhunter-check.sh
+sudo ./rkhunter-check.sh
+
+```
