@@ -21,6 +21,7 @@ Full scan logs are saved to:
 /var/log/rkhunter.log
 
 ```
+To run the program:
 
 ```bash
 git clone https://github.com/AmirIqbal1/rkhunter-script.git
