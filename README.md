@@ -3,8 +3,7 @@
 Simple helper script to install, update and run Rootkit Hunter on:
 
 - Ubuntu 24.04 LTS / Linux Mint 22.x
-- Other Ubuntu-based systems may also work
-
+  
 ## What it does
 
 The script:
